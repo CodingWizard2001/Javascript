@@ -1,4 +1,4 @@
-// Write a for loop to print numbers from 1 to 10.
+// Write a while loop to print numbers from 1 to 10.
 
 
 let i = 1;

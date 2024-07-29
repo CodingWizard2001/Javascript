@@ -1,4 +1,4 @@
-// Write a while loop to check if a number is prime.
+// Write a do-while loop to check if a number is prime.
 
 
 
@@ -7,12 +7,13 @@ let num = parseInt(prompt("Enter a number : "));
 let flag = true;
 
 let i = 2;
-while((i * i) <= num){
+do{
     if(num % i == 0){
         flag = false;
         break;
     }
     i++;
-}
+}while((i * i) <= num);
+
 if(flag) console.log(`${num} is a Prime number`);
 else console.log(`${num} is not a Prime number`);
